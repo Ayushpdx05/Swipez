@@ -1,0 +1,10 @@
+.sign-up {
+    margin-top: 30px;
+}
+
+/* Add a margin at the bottom of the button to create space */
+button.mat-raised-button.color-accent {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100px;
+}

@@ -1,0 +1,35 @@
+
+
+.topnav {
+  display: flex;
+  justify-content: center; /* Center the contents horizontally */
+  background-color: #333;
+}
+
+.nav-bar {
+  /* Optional: You can add more styling to the navigation bar if needed */
+  height: 23px;
+}
+
+.nav-bar li {
+  display: inline; /* Display list items inline */
+  margin: 0 10px; /* Add spacing between list items as desired */
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 14px 16px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+

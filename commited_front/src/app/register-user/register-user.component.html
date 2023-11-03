@@ -1,0 +1,27 @@
+<nav>
+  <div class="topnav">
+  <ul class="nav-bar">
+  <!-- Navigation menu goes here -->
+  <li><a routerLink="/mainpage"> Home </a></li> 
+  <li><a routerLink="/reallogin"> Login </a></li>
+</ul>
+  </div>
+</nav>
+<div class="registration-form">
+  <h2>Registration</h2>
+  <form (ngSubmit)="registerUser()">
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" [(ngModel)]="registrationData.Username" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" [(ngModel)]="registrationData.Email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" [(ngModel)]="registrationData.Password" required>
+    </div>
+    <button type="submit">Register</button>
+  </form>
+</div>
